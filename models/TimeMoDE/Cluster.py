@@ -64,20 +64,17 @@ class EDESC(nn.Module):
             else:
                 s = torch.cat((s, si), 1)
         s = (s + self.eta * self.d) / ((self.eta + 1) * self.d)
-        s = (s.t() / torch.sum(s, 1)).t()  # Eq 13  [b_s, num_expert]
+        s = (s.t() / torch.sum(s, 1)).t()
         return s
 
     def total_loss(self, n_clusters): # x, x_bar,
-        # Reconstruction loss   Eq 9
-        # reconstr_loss = F.mse_loss(x_bar, x)
 
-        # Constraints   Eq 12
         d_cons1 = D_constraint1()
         d_cons2 = D_constraint2()
         loss_d1 = d_cons1(self.D)
         loss_d2 = d_cons2(self.D, self.d, n_clusters)
 
-        # Total_loss    Eq 16
-        total_loss = loss_d1 + loss_d2  # reconstr_loss +
+        total_loss = loss_d1 + loss_d2
+
 
         return total_loss
