@@ -1,5 +1,7 @@
 # TimeMoDE: Towards a Unified Generative Model for Scarce Time Series with Domain Experts
 
+The repo is the official implementation for the paper: [https://arxiv.org/pdf/2511.18312](https://arxiv.org/pdf/2606.15172)
+
 ## Running the Code
 
 The following instructions explain how to run the code. 
@@ -43,3 +45,26 @@ Scripts for all datasets:
 ./scripts/finetune_percentage.sh
 ./scripts/finetune_count.sh
 ```
+
+## Citation
+
+If you find this repo useful, please cite our paper!
+
+~~~bash
+@article{yao2026towards,
+  title={Towards a Unified Generative Model for Scarce Time Series with Domain Experts},
+  author={Yao, Zihao and Zheng, Qi and Zuo, Jiankai and Zhang, Yaying},
+  journal={arXiv preprint arXiv:2606.15172},
+  year={2026}
+}
+~~~
+
+## Code
+
+Thanks for the open sources papers listed below which TimeMoDE is build on.
+
+[https://github.com/wmd3i/PaD-TS](https://github.com/azencot-group/ImagenFew)
+
+[https://github.com/EdwardChasel/Spatial-Mamba](https://github.com/kunncheng/Diff-MoE)
+
+[https://github.com/Y-debug-sys/Diffusion-TS](https://github.com/syrGitHub/TFPS)
