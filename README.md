@@ -6,6 +6,14 @@ The repo is the official implementation for the paper: [https://arxiv.org/pdf/26
 
 The following instructions explain how to run the code. 
 
+## Datasets
+
+Preprocessed datasets are available for both **pretraining** and **fine-tuning**:
+
+Download from: https://drive.google.com/file/d/1EHO1EXBJYg1ohFKxmJjV548qKtbSkVhF/view?usp=drive_link
+
+Unzip the contents into the empty `./data` directory.
+
 ### Environment & Libraries
 
 The full libraries list is provided as `requirements.txt`. Please create a virtual environment by running
