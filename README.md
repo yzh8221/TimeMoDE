@@ -10,7 +10,7 @@ The following instructions explain how to run the code.
 
 Preprocessed datasets are available for both **pretraining** and **fine-tuning**:
 
-Download from: https://drive.google.com/file/d/1EHO1EXBJYg1ohFKxmJjV548qKtbSkVhF/view?usp=drive_link
+Download from [Google_Drive](https://drive.google.com/file/d/1EHO1EXBJYg1ohFKxmJjV548qKtbSkVhF/view?usp=drive_link)
 
 Unzip the contents into the empty `./data` directory.
 
