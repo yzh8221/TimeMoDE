@@ -63,8 +63,8 @@ If you find this repo useful, please cite our paper!
 
 Thanks for the open sources papers listed below which TimeMoDE is build on.
 
-[https://github.com/wmd3i/PaD-TS](https://github.com/azencot-group/ImagenFew)
+[https://github.com/azencot-group/ImagenFew](https://github.com/azencot-group/ImagenFew)
 
-[https://github.com/EdwardChasel/Spatial-Mamba](https://github.com/kunncheng/Diff-MoE)
+[https://github.com/kunncheng/Diff-MoE](https://github.com/kunncheng/Diff-MoE)
 
-[https://github.com/Y-debug-sys/Diffusion-TS](https://github.com/syrGitHub/TFPS)
+[https://github.com/syrGitHub/TFPS](https://github.com/syrGitHub/TFPS)
