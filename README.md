@@ -1,6 +1,6 @@
 # TimeMoDE: Towards a Unified Generative Model for Scarce Time Series with Domain Experts
 
-The repo is the official implementation for the paper: [https://arxiv.org/pdf/2511.18312](https://arxiv.org/pdf/2606.15172)
+The repo is the official implementation for the paper: [https://arxiv.org/pdf/2606.15172](https://arxiv.org/pdf/2606.15172)
 
 ## Running the Code
 
